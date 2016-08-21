@@ -4,8 +4,64 @@
   <meta charset="utf-8">
   <link href="<%= url("/css/style.css")%>" rel="stylesheet" type="text/css" />
   <script src="<%= url("/js/main.js")%>" type="text/javascript" > </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+  <title>Amignon's World 	&hearts;</title>
 </head>
-<body>
-  <h1>Hello World</h1>
+  <body>
+    <header id="top">
+      <nav class="menu">
+        <ul>
+          <li><a href="#Bienvenue"> Bienvenue</a> </li>
+          <li><a href="#contenus"> Contenus   </a></li>
+          <li><a href="#video"> Vidéo du mois  </a> </li>
+        </ul>
+      </nav>
+      <i class="fa fa-paw" aria-hidden="true"></i>
+      <span class="creation-compte">Se créer un compte</span>
+    </header>
+    <section class="Bienvenue" id="Bienvenue">
+      <article class="text-bienvenue">
+        <h1> Welcome au royaume des Amignons </h1>
+        <p>Retrouvez le meilleur de vos amis à 4 pattes ! </p>
+      </article>
+      <div class="image_bienvenue"></div>
+    </section>
+    <section class="contenus" id="contenus">
+      <h2> Contenus </h2>
+        <article> Les meilleures photos d'Amignons
+          <i class="fa fa-camera-retro" aria-hidden="true"></i>
+        </article>
+        <article> Les meilleures vidéos d'Amignons
+          <i class="fa fa-play" aria-hidden="true"></i>
+        </article>
+        <article> Adoptez un Amignon
+          <i class="fa fa-paw" aria-hidden="true"></i>
+        </article>
+    </section>
+    <section class="video" id="video">
+      <article class="contenu_section_video">
+      <h2> La vidéo du mois </h2>
+      <iframe width="420" height="315" src="https://www.youtube.com/embed/FzRH3iTQPrk" frameborder="0" allowfullscreen></iframe>
+      </article>
+    </section>
+    <footer>
+      <p class="FollowUs"> Follow us ! </p>
+      <article class="picto_partage">
+      <a href="https://www.instagram.com/instababby/?hl=fr" target="_blank">
+         <i class="fa fa-instagram" aria-hidden="true"></i>
+       </a>
+      <a href="https://www.facebook.com/dailycuteanimals/?fref=ts" target="_blank">
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://fr.pinterest.com/explore/animaux-mignons-940232433146/" target="_blank">
+        <i class="fa fa-pinterest" aria-hidden="true"></i>
+      </a>
+    </article>
+      <a href="#top">
+        <span>Top
+          <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </span>
+      </a>
+    </footer>
 </body>
 </html>
